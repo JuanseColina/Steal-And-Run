@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 3147916265899327134}
   - component: {fileID: 2017751992362168635}
   - component: {fileID: 4315726036735460849}
+  - component: {fileID: -230615522021838925}
+  - component: {fileID: -5490282137875075710}
+  - component: {fileID: -870631084394014850}
   m_Layer: 0
   m_Name: MONEY___V1
   m_TagString: Untagged
@@ -85,3 +88,44 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-230615522021838925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2370148525530555428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d9304110d094bb29c9fc71e5837cdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &-5490282137875075710
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2370148525530555428}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &-870631084394014850
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2370148525530555428}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 13.9880905, y: 5.7521477, z: 7.22795}
+  m_Center: {x: -0.056983232, y: 3.4339485, z: -0.10016191}
